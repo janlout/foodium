@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "jl_foodium:item/raw_muttonium"
+  }
+}

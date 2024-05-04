@@ -1,0 +1,22 @@
+{
+  "item.jl_foodium.foodium_shard": "Foodium Shard",
+
+  "item.jl_foodium.raw_baconium": "Raw Baconium",
+  "item.jl_foodium.raw_chickenite": "Raw Chickenite",
+  "item.jl_foodium.raw_decayron": "Raw Decayron",
+  "item.jl_foodium.raw_muttonium": "Raw Muttonium",
+  "item.jl_foodium.raw_parafish": "Raw Parafish",
+  "item.jl_foodium.raw_rabbiddium": "Raw Rabbiddium",
+  "item.jl_foodium.raw_steakite": "Raw Steakite",
+
+  "block.jl_foodium.foodium_ore": "Foodium Ore",
+  "block.jl_foodium.baconium_ore": "Baconium Ore",
+  "block.jl_foodium.chickenite_ore": "Chickenite Ore",
+  "block.jl_foodium.decayron_ore": "Decayron Ore",
+  "block.jl_foodium.muttonium_ore": "Muttonium Ore",
+  "block.jl_foodium.parafish_ore": "Parafish Ore",
+  "block.jl_foodium.rabbiddium_ore": "Rabbiddium Ore",
+  "block.jl_foodium.steakite_ore": "Steakite Ore",
+
+  "creativetab.foodium_tab": "Foodium Mod"
+}
