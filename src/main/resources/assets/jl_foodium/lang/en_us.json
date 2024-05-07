@@ -9,6 +9,27 @@
   "item.jl_foodium.raw_rabbiddium": "Raw Rabbiddium",
   "item.jl_foodium.raw_steakite": "Raw Steakite",
 
+  "item.jl_foodium.baconium_ingot": "Baconium Ingot",
+  "item.jl_foodium.chickenite_ingot": "Chickenite Ingot",
+  "item.jl_foodium.decayron_ingot": "Decayron Ingot",
+  "item.jl_foodium.muttonium_ingot": "Muttonium Ingot",
+  "item.jl_foodium.parafish_ingot": "Parafish Ingot",
+  "item.jl_foodium.rabbiddium_ingot": "Rabbiddium Ingot",
+  "item.jl_foodium.steakite_ingot": "Steakite Ingot",
+
+  "item.jl_foodium.baconium_nugget": "Baconium Nugget",
+  "item.jl_foodium.chickenite_nugget": "Chickenite Nugget",
+  "item.jl_foodium.decayron_nugget": "Decayron Nugget",
+  "item.jl_foodium.muttonium_nugget": "Muttonium Nugget",
+  "item.jl_foodium.parafish_nugget": "Parafish Nugget",
+  "item.jl_foodium.rabbiddium_nugget": "Rabbiddium Nugget",
+  "item.jl_foodium.steakite_nugget": "Steakite Nugget",
+
+  "item.jl_foodium.fullfilling_foodium_pie": "Fullfilling Foodium Pie",
+  "item.jl_foodium.heavyweight_meal": "Heavyweight Meal",
+  "item.jl_foodium.lightweight_meal": "Lightweight Meal",
+  "item.jl_foodium.parafish_meal": "Parafish Meal",
+
   "block.jl_foodium.foodium_ore": "Foodium Ore",
   "block.jl_foodium.baconium_ore": "Baconium Ore",
   "block.jl_foodium.chickenite_ore": "Chickenite Ore",
@@ -17,6 +38,14 @@
   "block.jl_foodium.parafish_ore": "Parafish Ore",
   "block.jl_foodium.rabbiddium_ore": "Rabbiddium Ore",
   "block.jl_foodium.steakite_ore": "Steakite Ore",
+
+  "block.jl_foodium.baconium_block": "Block of Baconium",
+  "block.jl_foodium.chickenite_block": "Block of Chickenite",
+  "block.jl_foodium.decayron_block": "Block of Decayron",
+  "block.jl_foodium.muttonium_block": "Block of Muttonium",
+  "block.jl_foodium.parafish_block": "Block of Parafish",
+  "block.jl_foodium.rabbiddium_block": "Block of Rabbiddium",
+  "block.jl_foodium.steakite_block": "Block of Steakite",
 
   "creativetab.foodium_tab": "Foodium Mod"
 }
