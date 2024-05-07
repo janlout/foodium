@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_parafish": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jl_foodium:raw_parafish"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "jl_foodium:parafish_ingot_from_smelting_raw_parafish"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_parafish"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "jl_foodium:parafish_ingot_from_smelting_raw_parafish"
+    ]
+  },
+  "sends_telemetry_event": false
+}

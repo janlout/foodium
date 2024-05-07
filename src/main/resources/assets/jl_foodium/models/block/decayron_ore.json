@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-    "textures": {
-        "all": "jl_foodium:block/decayron_ore"
-    }
-}

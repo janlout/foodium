@@ -44,6 +44,29 @@ public class ModBlocks {
             "steakite_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
 
+    public static final RegistryObject<Block> BACONIUM_BLOCK = registerBlock(
+            "baconium_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> CHICKENITE_BLOCK = registerBlock(
+            "chickenite_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> DECAYRON_BLOCK = registerBlock(
+            "decayron_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> MUTTONIUM_BLOCK = registerBlock(
+            "muttonium_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> PARAFISH_BLOCK = registerBlock(
+            "parafish_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> RABBIDDIUM_BLOCK = registerBlock(
+            "rabbiddium_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> STEAKITE_BLOCK = registerBlock(
+            "steakite_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block) {
         return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }

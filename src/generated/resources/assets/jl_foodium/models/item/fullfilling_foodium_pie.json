@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "jl_foodium:item/fullfilling_foodium_pie"
+  }
+}

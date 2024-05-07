@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_baconium_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jl_foodium:baconium_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "jl_foodium:baconium_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_baconium_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "jl_foodium:baconium_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

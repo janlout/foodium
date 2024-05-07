@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rabbiddium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jl_foodium:rabbiddium_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "jl_foodium:rabbiddium_ingot_from_blasting_rabbiddium_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_rabbiddium_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "jl_foodium:rabbiddium_ingot_from_blasting_rabbiddium_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

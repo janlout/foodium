@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "rabbiddium",
+  "ingredient": {
+    "item": "jl_foodium:raw_rabbiddium"
+  },
+  "result": "jl_foodium:rabbiddium_ingot"
+}

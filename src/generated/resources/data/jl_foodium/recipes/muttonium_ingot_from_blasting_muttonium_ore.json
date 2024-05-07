@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "muttonium",
+  "ingredient": {
+    "item": "jl_foodium:muttonium_ore"
+  },
+  "result": "jl_foodium:muttonium_ingot"
+}

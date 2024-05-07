@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_rabbiddium": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jl_foodium:raw_rabbiddium"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "jl_foodium:rabbiddium_ingot_from_smelting_raw_rabbiddium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_rabbiddium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "jl_foodium:rabbiddium_ingot_from_smelting_raw_rabbiddium"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,19 @@
+{
+  "values": [
+    "jl_foodium:baconium_ore",
+    "jl_foodium:chickenite_ore",
+    "jl_foodium:decayron_ore",
+    "jl_foodium:foodium_ore",
+    "jl_foodium:muttonium_ore",
+    "jl_foodium:parafish_ore",
+    "jl_foodium:rabbiddium_ore",
+    "jl_foodium:steakite_ore",
+    "jl_foodium:baconium_block",
+    "jl_foodium:chickenite_block",
+    "jl_foodium:decayron_block",
+    "jl_foodium:muttonium_block",
+    "jl_foodium:parafish_block",
+    "jl_foodium:rabbiddium_block",
+    "jl_foodium:steakite_block"
+  ]
+}

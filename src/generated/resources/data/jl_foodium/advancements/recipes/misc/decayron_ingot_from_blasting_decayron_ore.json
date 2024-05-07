@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_decayron_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jl_foodium:decayron_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "jl_foodium:decayron_ingot_from_blasting_decayron_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_decayron_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "jl_foodium:decayron_ingot_from_blasting_decayron_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

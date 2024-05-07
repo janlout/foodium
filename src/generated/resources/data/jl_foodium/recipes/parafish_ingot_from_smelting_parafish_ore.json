@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "parafish",
+  "ingredient": {
+    "item": "jl_foodium:parafish_ore"
+  },
+  "result": "jl_foodium:parafish_ingot"
+}

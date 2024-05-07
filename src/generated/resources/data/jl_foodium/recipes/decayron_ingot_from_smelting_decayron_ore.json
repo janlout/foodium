@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "decayron",
+  "ingredient": {
+    "item": "jl_foodium:decayron_ore"
+  },
+  "result": "jl_foodium:decayron_ingot"
+}

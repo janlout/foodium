@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "steakite",
+  "ingredient": {
+    "item": "jl_foodium:steakite_ore"
+  },
+  "result": "jl_foodium:steakite_ingot"
+}
