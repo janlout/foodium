@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "jl_foodium:baconium_ingot"
+    },
+    "F": {
+      "item": "jl_foodium:foodium_shard"
+    },
+    "M": {
+      "item": "jl_foodium:muttonium_ingot"
+    },
+    "S": {
+      "item": "jl_foodium:steakite_ingot"
+    }
+  },
+  "pattern": [
+    "FFF",
+    "BMS",
+    "FFF"
+  ],
+  "result": {
+    "item": "jl_foodium:heavyweight_meal"
+  },
+  "show_notification": true
+}

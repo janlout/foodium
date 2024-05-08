@@ -8,12 +8,13 @@ import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
-import net.minecraft.world.item.crafting.ShapedRecipe;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.Iterator;
 import java.util.List;
+
+import static net.minecraft.world.item.Items.ROTTEN_FLESH;
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
     private static final List<ItemLike> BACONIUM_SMELTABLES = List.of(ModItems.RAW_BACONIUM.get(), ModBlocks.BACONIUM_ORE.get());
@@ -57,6 +58,128 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.BACONIUM_INGOT.get(), 9)
                 .requires(ModBlocks.BACONIUM_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.BACONIUM_BLOCK.get()), has(ModBlocks.BACONIUM_BLOCK.get()))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.CHICKENITE_BLOCK.get())
+                .pattern("CCC")
+                .pattern("CCC")
+                .pattern("CCC")
+                .define('C', ModItems.CHICKENITE_INGOT.get())
+                .unlockedBy(getHasName(ModItems.CHICKENITE_INGOT.get()), has(ModItems.CHICKENITE_INGOT.get()))
+                .save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CHICKENITE_INGOT.get(), 9)
+                .requires(ModBlocks.CHICKENITE_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.CHICKENITE_BLOCK.get()), has(ModBlocks.CHICKENITE_BLOCK.get()))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DECAYRON_BLOCK.get())
+                .pattern("DDD")
+                .pattern("DDD")
+                .pattern("DDD")
+                .define('D', ModItems.DECAYRON_INGOT.get())
+                .unlockedBy(getHasName(ModItems.DECAYRON_INGOT.get()), has(ModItems.DECAYRON_INGOT.get()))
+                .save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.DECAYRON_INGOT.get(), 9)
+                .requires(ModBlocks.DECAYRON_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.DECAYRON_BLOCK.get()), has(ModBlocks.DECAYRON_BLOCK.get()))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.MUTTONIUM_BLOCK.get())
+                .pattern("MMM")
+                .pattern("MMM")
+                .pattern("MMM")
+                .define('M', ModItems.MUTTONIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.MUTTONIUM_INGOT.get()), has(ModItems.MUTTONIUM_INGOT.get()))
+                .save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.MUTTONIUM_INGOT.get(), 9)
+                .requires(ModBlocks.MUTTONIUM_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.MUTTONIUM_BLOCK.get()), has(ModBlocks.MUTTONIUM_BLOCK.get()))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PARAFISH_BLOCK.get())
+                .pattern("PPP")
+                .pattern("PPP")
+                .pattern("PPP")
+                .define('P', ModItems.PARAFISH_INGOT.get())
+                .unlockedBy(getHasName(ModItems.PARAFISH_INGOT.get()), has(ModItems.PARAFISH_INGOT.get()))
+                .save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.PARAFISH_INGOT.get(), 9)
+                .requires(ModBlocks.PARAFISH_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.PARAFISH_BLOCK.get()), has(ModBlocks.PARAFISH_BLOCK.get()))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RABBIDDIUM_BLOCK.get())
+                .pattern("RRR")
+                .pattern("RRR")
+                .pattern("RRR")
+                .define('R', ModItems.RABBIDDIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.RABBIDDIUM_INGOT.get()), has(ModItems.RABBIDDIUM_INGOT.get()))
+                .save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RABBIDDIUM_INGOT.get(), 9)
+                .requires(ModBlocks.RABBIDDIUM_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.RABBIDDIUM_BLOCK.get()), has(ModBlocks.RABBIDDIUM_BLOCK.get()))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STEAKITE_BLOCK.get())
+                .pattern("SSS")
+                .pattern("SSS")
+                .pattern("SSS")
+                .define('S', ModItems.STEAKITE_INGOT.get())
+                .unlockedBy(getHasName(ModItems.STEAKITE_INGOT.get()), has(ModItems.STEAKITE_INGOT.get()))
+                .save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.STEAKITE_INGOT.get(), 9)
+                .requires(ModBlocks.STEAKITE_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.STEAKITE_BLOCK.get()), has(ModBlocks.STEAKITE_BLOCK.get()))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.PARAFISH_MEAL.get())
+                .pattern("   ")
+                .pattern("PPP")
+                .pattern("FFF")
+                .define('F', ModItems.FOODIUM_SHARD.get())
+                .define('P', ModItems.PARAFISH_INGOT.get())
+                .unlockedBy(getHasName(ModItems.FOODIUM_SHARD.get()), has(ModItems.FOODIUM_SHARD.get()))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.LIGHTWEIGHT_MEAL.get())
+                .pattern("   ")
+                .pattern("CFR")
+                .pattern("FFF")
+                .define('C', ModItems.CHICKENITE_INGOT.get())
+                .define('R', ModItems.RABBIDDIUM_INGOT.get())
+                .define('F', ModItems.FOODIUM_SHARD.get())
+                .unlockedBy(getHasName(ModItems.FOODIUM_SHARD.get()), has(ModItems.FOODIUM_SHARD.get()))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.HEAVYWEIGHT_MEAL.get())
+                .pattern("FFF")
+                .pattern("BMS")
+                .pattern("FFF")
+                .define('F', ModItems.FOODIUM_SHARD.get())
+                .define('B', ModItems.BACONIUM_INGOT.get())
+                .define('M', ModItems.MUTTONIUM_INGOT.get())
+                .define('S', ModItems.STEAKITE_INGOT.get())
+                .unlockedBy(getHasName(ModItems.FOODIUM_SHARD.get()), has(ModItems.FOODIUM_SHARD.get()))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ROTTEN_FLESH)
+                .pattern(" D ")
+                .pattern("D D")
+                .pattern(" D ")
+                .define('D', ModItems.DECAYRON_INGOT.get())
+                .unlockedBy(getHasName(ModItems.DECAYRON_INGOT.get()), has(ModItems.DECAYRON_INGOT.get()))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.FULLFILLING_FOODIUM_PIE.get())
+                .pattern("FDF")
+                .pattern("LPH")
+                .pattern("FDF")
+                .define('F', ModItems.FOODIUM_SHARD.get())
+                .define('L', ModItems.LIGHTWEIGHT_MEAL.get())
+                .define('P', ModItems.PARAFISH_MEAL.get())
+                .define('H', ModItems.HEAVYWEIGHT_MEAL.get())
+                .define('D', ModItems.DECAYRON_INGOT.get())
+                .unlockedBy(getHasName(ModItems.FOODIUM_SHARD.get()), has(ModItems.FOODIUM_SHARD.get()))
                 .save(recipeOutput);
     }
 

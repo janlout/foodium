@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "jl_foodium:muttonium_ingot"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MMM",
+    "MMM"
+  ],
+  "result": {
+    "item": "jl_foodium:muttonium_block"
+  },
+  "show_notification": true
+}

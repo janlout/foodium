@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chickenite_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jl_foodium:chickenite_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "jl_foodium:chickenite_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_chickenite_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "jl_foodium:chickenite_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

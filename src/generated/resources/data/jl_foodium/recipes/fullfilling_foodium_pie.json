@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "jl_foodium:decayron_ingot"
+    },
+    "F": {
+      "item": "jl_foodium:foodium_shard"
+    },
+    "H": {
+      "item": "jl_foodium:heavyweight_meal"
+    },
+    "L": {
+      "item": "jl_foodium:lightweight_meal"
+    },
+    "P": {
+      "item": "jl_foodium:parafish_meal"
+    }
+  },
+  "pattern": [
+    "FDF",
+    "LPH",
+    "FDF"
+  ],
+  "result": {
+    "item": "jl_foodium:fullfilling_foodium_pie"
+  },
+  "show_notification": true
+}

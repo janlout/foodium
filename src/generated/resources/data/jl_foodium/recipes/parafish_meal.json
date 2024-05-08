@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "jl_foodium:foodium_shard"
+    },
+    "P": {
+      "item": "jl_foodium:parafish_ingot"
+    }
+  },
+  "pattern": [
+    "   ",
+    "PPP",
+    "FFF"
+  ],
+  "result": {
+    "item": "jl_foodium:parafish_meal"
+  },
+  "show_notification": true
+}
