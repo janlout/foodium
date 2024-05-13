@@ -1,6 +1,7 @@
 package io.github.janlout.foodium.item;
 
 import io.github.janlout.foodium.FoodiumMod;
+import io.github.janlout.foodium.item.custom.FuelItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -10,7 +11,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, FoodiumMod.MODID);
 
-    public static final RegistryObject<Item> FOODIUM_SHARD = ITEMS.register("foodium_shard", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> FOODIUM_SHARD = ITEMS.register("foodium_shard", () -> new FuelItem(new Item.Properties(), 20000));
 
     public static final RegistryObject<Item> RAW_BACONIUM = ITEMS.register("raw_baconium", () -> new Item(new Item.Properties().food(ModFoodProperties.RAW_BACONIUM)));
     public static final RegistryObject<Item> RAW_CHICKENITE = ITEMS.register("raw_chickenite", () -> new Item(new Item.Properties().food(ModFoodProperties.RAW_CHICKENITE)));
